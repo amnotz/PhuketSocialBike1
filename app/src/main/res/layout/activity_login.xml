@@ -114,11 +114,13 @@
             android:id="@+id/login_btn"
             android:layout_marginLeft="75dp" />
 
-        <Button
+        <com.facebook.widget.LoginButton
+            android:id="@+id/facebookLoginButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/signFB_button"
-            android:id="@+id/button2" />
+            android:layout_gravity="center"
+
+        />
     </LinearLayout>
 
     <Button

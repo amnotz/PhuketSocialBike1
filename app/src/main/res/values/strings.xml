@@ -10,6 +10,7 @@
     <string name="registration_txt">registration</string>
     <string name="login_button">Login</string>
     <string name="signFB_button">Sign in FACEBOOK</string>
+    <string name="app_id">1552924621651602</string>
 
     //regis
     <string name="action_settings">Settings</string>

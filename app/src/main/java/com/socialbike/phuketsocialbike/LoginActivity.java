@@ -10,6 +10,13 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+import com.facebook.widget.LoginButton;
+import com.facebook.Request;
+import com.facebook.Response;
+import com.facebook.Session;
+import com.facebook.SessionState;
+import com.facebook.UiLifecycleHelper;
+import com.facebook.model.GraphUser;
 
 
 public class LoginActivity extends Activity  {
@@ -28,6 +35,8 @@ public class LoginActivity extends Activity  {
                 startActivity(contractBtn);
             }
         });
+
+
 
         //liknlogin to regis
         TextView link_Regis = (TextView) findViewById(R.id.text5);
