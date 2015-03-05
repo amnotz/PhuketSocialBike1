@@ -18,7 +18,6 @@ import com.facebook.SessionState;
 import com.facebook.UiLifecycleHelper;
 import com.facebook.model.GraphUser;
 
-
 public class LoginActivity extends Activity  {
 
     @Override
