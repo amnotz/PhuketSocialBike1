@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/PhuketSocialBike.iml" filepath="$PROJECT_DIR$/PhuketSocialBike.iml" />
       <module fileurl="file://$PROJECT_DIR$/PhuketSocialBike1.iml" filepath="$PROJECT_DIR$/PhuketSocialBike1.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/facebook/facebook.iml" filepath="$PROJECT_DIR$/facebook/facebook.iml" />
+      <module fileurl="file://$PROJECT_DIR$/info.androidhive.slidingmenu.model/info.androidhive.slidingmenu.model.iml" filepath="$PROJECT_DIR$/info.androidhive.slidingmenu.model/info.androidhive.slidingmenu.model.iml" />
     </modules>
   </component>
 </project>

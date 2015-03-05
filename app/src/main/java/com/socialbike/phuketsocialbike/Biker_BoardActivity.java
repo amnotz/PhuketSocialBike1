@@ -1,11 +1,15 @@
 package com.socialbike.phuketsocialbike;
 
+import android.app.Fragment;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
+import android.widget.AdapterView;
+import android.widget.ListView;
 
 
 public class Biker_BoardActivity extends ActionBarActivity {
@@ -37,7 +41,20 @@ public class Biker_BoardActivity extends ActionBarActivity {
         if (id == R.id.action_settings) {
             return false;
         }
-
         return super.onOptionsItemSelected(item);
     }
+    
+/**Slide manu **/
+private class SlideMenuClickListener implements ListView.OnItemClickListener{
+    @Override
+    public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+        // display view for selected nav drawer item
+        displayView(position);
+    }
+
+    private void displayView(int position) {
+        // update the main content by replacing fragments
+        Fragment fragment = null;
+    }
+}
 }
