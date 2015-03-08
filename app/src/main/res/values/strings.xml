@@ -36,12 +36,12 @@
     <string name="drawer_close">Slider Menu Closed</string>
     <!-- Nav Drawer Menu Items -->
     <string-array name="nav_drawer_items">
-        <item >Home</item>
-        <item >Find People</item>
-        <item >Photos</item>
-        <item >Communities</item>
-        <item >Pages</item>
-        <item >What\'s Hot</item>
+        <item >Profile</item>
+        <item >Shop</item>
+        <item >Beginner</item>
+        <item >Emergency call</item>
+        <item >Contact</item>
+        <item >Log out</item>
     </string-array>
 
     <!-- Nav Drawer List Item Icons -->
